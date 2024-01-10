@@ -1,4 +1,12 @@
 body{
     height: 100vh;
     background-color: blueviolet;
+    display:grid;
+    place-content:center;
+}
+buttton{
+    background-color:blue;
+    font-size:1.2rem;
+    border-radius:6px;
+    padding:.1rem;
 }
