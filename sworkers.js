@@ -3,6 +3,8 @@ let appArchivos=[
     './',
     './index.html',
     './style.css',
+    './icons/icon-32.png',
+    './icons/icon-168.png',
     './app.js'
 ];
 
