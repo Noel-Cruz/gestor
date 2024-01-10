@@ -3,7 +3,7 @@
     "short_name":"Gestor",
     "icons":[
         {
-            "src":"./gestor/icons/icon-32.png",
+            "src":"/gestor/icons/icon-32.png",
             "sizes":"144x144",
             "type":"image/png"
         }
