@@ -4,7 +4,6 @@ let appArchivos=[
     './index.html',
     './gestor/style.css',
     './gestor/icons/icon-32.png',
-    './gestor/icons/icon-168.png',
     './app.js'
 ];
 
