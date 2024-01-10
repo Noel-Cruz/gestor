@@ -1,9 +1,9 @@
 let cacheName='cachegestor'
 let appArchivos=[
-    '/',
-    '/Gestor/index.html',
-    '/Gestor/style.css',
-    '/Gestor/app.js'
+    './',
+    './gestor/index.html',
+    './gestor/style.css',
+    './gestor/app.js'
 ];
 
 
