@@ -1,3 +1,3 @@
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('./gestor/sworkers.js');
+  navigator.serviceWorker.register('./sworkers.js');
 }
