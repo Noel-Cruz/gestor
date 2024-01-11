@@ -11,6 +11,7 @@ let appArchivos=[
 
 
 self.addEventListener("install", function (e) {
+  console.log('hola');
   e.waitUntil(
     caches.open(cacheName).then(function (cache) {
       return cache.addAll(appArchivos);
