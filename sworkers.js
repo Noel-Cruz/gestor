@@ -19,7 +19,9 @@ self.addEventListener("install", function (e) {
   );
 });
 
-
+self.onfetch=()=>{
+  console.log('pepa')
+};
 self.addEventListener("fetch", function (e) {
   console.log('holaaaa');
   e.respondWith(
