@@ -1,4 +1,4 @@
-let cacheName='cachegestorv1'
+let cacheName='cachegestor'
 let appArchivos=[
     '/gestor/',
     '/gestor/index.html',
@@ -23,7 +23,7 @@ self.onfetch=(e)=>{
   console.dir(e)
 };
 self.addEventListener("fetch", function (e) {
-  alert('holaaaa');
+  prompt('holaaaa');
   e.respondWith(
     caches.match(e.request).then(function (r) {
       return (
