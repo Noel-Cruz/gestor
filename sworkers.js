@@ -23,7 +23,7 @@ self.onfetch=(e)=>{
   console.dir(e)
 };
 self.addEventListener("fetch", function (e) {
-  console.log('holaaaa');
+  alert('holaaaa');
   e.respondWith(
     caches.match(e.request).then(function (r) {
       return (
