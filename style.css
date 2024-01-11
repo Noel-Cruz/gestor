@@ -4,7 +4,7 @@ body{
     display:grid;
     place-content:center;
 }
-buttton{
+button{
     background-color:blue;
     font-size:1.2rem;
     border-radius:6px;
