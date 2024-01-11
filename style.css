@@ -1,13 +1,13 @@
 body{
     height: 100vh;
-    background-color: blueviolet;
+    background-color:darkred;
     display:grid;
     place-content:center;
-    row-gap:6px;
+    row-gap:7px;
 }
 button{
     background-color:rgb(0, 24, 159);
-    color: lightskyblue;
+    color: yellowgreen;
     font-size:1.6rem;
     border-radius:6px;
     padding:.2rem;

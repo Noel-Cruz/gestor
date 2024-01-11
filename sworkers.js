@@ -1,4 +1,4 @@
-let cacheName='cachegestorv3'
+let cacheName='cachegestorv4'
 let appArchivos=[
     '/gestor/',
     '/gestor/index.html',
