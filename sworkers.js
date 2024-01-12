@@ -2,7 +2,6 @@ let cacheName='cachegestorv4'
 let appArchivos=[
     '/gestor/',
     '/gestor/index.html',
-    '/gestor/style.css',
     '/gestor/icons/icon-32.png',
     '/gestor/icons/icon-168.png',
     '/gestor/app.js'

@@ -1,0 +1,13 @@
+body{
+    height: 100vh;
+    background-color:darkred;
+    display:grid;
+    place-content:center;
+    row-gap:7px;
+    a{
+        display: block;
+        width: 4rem;
+        height: 4rem;
+        background-color: aquamarine;
+    }
+}

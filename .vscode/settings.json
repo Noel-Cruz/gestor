@@ -1,5 +1,7 @@
 {
     "files.autoSave": "off",
     "editor.codeLensFontSize": 100,
-    "editor.fontSize": 11
+    "editor.fontSize": 11,
+    "livePreview.defaultPreviewPath": "/index.html",
+    "liveServer.settings.port": 5501
 }
