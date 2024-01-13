@@ -4,12 +4,12 @@ body {
   display: grid;
   place-content: center;
   row-gap: 7px;
-}
-body a {
-  display: block;
-  width: 4rem;
-  height: 4rem;
-  background-color: aquamarine;
+  a {
+    display: block;
+    width: 4rem;
+    height: 4rem;
+    background-color: aquamarine;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
