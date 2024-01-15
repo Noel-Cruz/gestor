@@ -19,7 +19,7 @@ span.onclick=(e)=>{
     // e.stopPropagation()
     // console.log(e);
 };
-sombra.ontouchstart=(e)=>{
+sombra.onclick=(e)=>{
     console.log(e);
     e.preventDefault();
     const som=document.getElementById('som');
