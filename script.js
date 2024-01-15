@@ -30,7 +30,7 @@ sombra.ontouchstart=(e)=>{
     som.style.left=`${x}px`;
     som.style.top=`${y}px`;
     som.style.display='block';
-    setTimeout(() => {
+    /*setTimeout(() => {
         som.style.display='none'; 
-    }, 400);
+    }, 400);*/
 };

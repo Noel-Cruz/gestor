@@ -57,6 +57,7 @@ body {
   }
   100%{
     scale: 30;
+    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */
