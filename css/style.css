@@ -47,7 +47,7 @@ body {
         cursor: default;
       }
     }
-    &>:nth-child(2){
+    &>:nth-child(2):hover{
       transition-duration: 3s;
       transition-delay: 3s;
       transition-property: display, background-color;
