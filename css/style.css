@@ -47,6 +47,11 @@ body {
         cursor: default;
       }
     }
+    &>:nth-child(2){
+      transition-duration: 3s;
+      transition-delay: 3s;
+      transition-property: display, background-color;
+    }
   }
 }
 @keyframes som {
