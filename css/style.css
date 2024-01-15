@@ -48,7 +48,8 @@ body {
       }
     }
     &>:nth-child(1):hover{
-      background-color: orange;
+      display: none;
+      background-color: yellow;
       transition-duration: 3s;
       transition-delay: 3s;
       transition-property: display, background-color;
