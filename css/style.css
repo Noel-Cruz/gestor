@@ -10,12 +10,14 @@ body {
     justify-content: center;
     gap: 6%;
     & a{
-      display: block;
+      cursor: default;
+      z-index: 1;
       width: 4.5rem;
       height:4.5rem;
       color: aliceblue;
       background-color: rgb(0, 0, 0);
       background-image: radial-gradient(circle 0px at 50%, rgb(255 255 255 / 19%) 80%,rgba(255, 0, 0, 0));
+      
       animation-name: Bimg;
       animation-duration: .4s;
       animation-timing-function: ease-in-out;
@@ -29,6 +31,7 @@ body {
         width:0rem;
         height:0rem;
         & article{
+          z-index: 2;
           display:none;
           position: relative;
           background-color: rgba(245, 245, 245, 0.203);
@@ -40,19 +43,13 @@ body {
         }
       }
       & span{
+        z-index: 3;
         height: 100%;
         width: 100%;
         display: grid;
         place-content: center;
         cursor: default;
       }
-    }
-    &>:nth-child(1):hover{
-      display: none;
-      background-color: yellow;
-      transition-duration: 3s;
-      transition-delay: 3s;
-      transition-property: display, background-color;
     }
   }
 }
